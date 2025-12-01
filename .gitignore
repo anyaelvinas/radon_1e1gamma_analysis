@@ -1,0 +1,18 @@
+# ROOT data files
+*.root
+*.log
+
+# Large directories
+simulations/
+cut_simulations/
+data/
+cut_data/
+
+# Large installer
+Miniconda3-latest-Linux-x86_64.sh
+
+# Python cache
+__pycache__/
+*.pyc
+Miniconda3-latest-Linux-x86_64.sh
+Miniconda3-latest-Linux-x86_64.sh
