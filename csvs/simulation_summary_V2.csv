@@ -1,0 +1,2 @@
+simulation_file,total_events,selected_events,efficiency,eff_uncertainty
+Bi214_wire_surface_50M.root,100000000,4885304,0.04885304,2.1556071182559774e-05
