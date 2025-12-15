@@ -1,0 +1,1 @@
+This repository contains a selection of the most important files used to carry out analysis for my MSc dissertation project: "Off-Plane 1e1γ Channel Analysis for Radon Background Reduction at the SuperNEMO Experiment"
