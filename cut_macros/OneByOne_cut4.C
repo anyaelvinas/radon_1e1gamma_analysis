@@ -92,7 +92,7 @@ void OneByOne_cut4(const char* inputFileName, const char* outputFileName) {
         // Data: 
         double t_e_meas = calo_tdc->at(e_idx);
         double t_g_meas = calo_tdc->at(g_idx);
-        double dt_meas = t_e_meas - t_g_meas;
+        double dt_meas = fabs(t_e_meas - t_g_meas);
         // 1e1gam theory:
         // electron energy
         double T_e = energy->at(e_idx);
@@ -114,7 +114,7 @@ void OneByOne_cut4(const char* inputFileName, const char* outputFileName) {
         // expected dt
         double t_e_exp = L_e / (beta_e * c);
         double t_g_exp = L_g / c ; 
-        double dt_exp = t_e_exp - t_g_exp;
+        double dt_exp = fabs(t_e_exp - t_g_exp);
         // Compare 1e1gam theory vs data
         double diff = fabs(dt_meas - dt_exp);
         double normalised_diff = diff / L_e;

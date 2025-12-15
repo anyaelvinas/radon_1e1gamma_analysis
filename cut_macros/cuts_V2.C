@@ -81,7 +81,7 @@ void cuts_V2(const char* inputFileName, const char* outputFileName) {
     const double x_calo_buffer = 100.0; // mm
     const double x_foil_buffer = 60.0; // mm
     const double y_buffer = 30.0; // mm
-    const double t_threshold = 0.03230; // ns/mm
+    const double t_threshold = 0.05331; // ns/mm
 
     // Prepare output file to store cut data in
     TFile *outputFile = new TFile(outputFileName, "RECREATE");
